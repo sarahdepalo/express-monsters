@@ -1,0 +1,4 @@
+${data.map(monster => <!-- goes through the list of monsters, maps through and returns: -->
+    `<p><a href="./monster/${monster.slug}">${monster.name}</a></p>`   
+    
+).join('')}  <!--.join('') will remove the extra comma that is generated from map-->
